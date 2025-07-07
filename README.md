@@ -2,12 +2,12 @@
 
 This repository contains a Google Colab implementation of a **Physics-Informed Neural Network (PINN)** that solves the **1D transient heat conduction equation without any training data**. I need to work on this more inorder to get accurate solution.
 
-## 🌡️ Problem Statement
+## Problem Statement
 
 We solve the heat equation:
-\[
-\frac{\partial u}{\partial t} = \alpha \frac{\partial^2 u}{\partial x^2}
-\]
+
+$\frac{\partial u}{\partial t} = \alpha \frac{\partial^2 u}{\partial x^2}$
+
 with specified initial and boundary conditions.
 
 Unlike conventional machine learning approaches, this model uses **no observed data**—it learns purely by enforcing the governing PDE and conditions.
